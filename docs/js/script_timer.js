@@ -1,7 +1,7 @@
 
 
 jQuery(function($){
-  $(".view_timer").each(function(index, target) {
+  $(".up_timer").each(function(index, target) {
     var startDate = $(this).attr("data-start-date");
     var endDate = $(this).attr("data-end-date");
     var nowDate = new Date();
